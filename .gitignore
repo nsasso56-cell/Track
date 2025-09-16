@@ -1,0 +1,9 @@
+
+inputs/
+!inputs/namtraject*
+!inputs/indef_template.json
+outputs/
+.vscode/
+venv/
+.DS_Store/
+
