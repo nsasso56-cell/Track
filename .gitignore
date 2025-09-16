@@ -5,5 +5,5 @@ inputs/
 outputs/
 .vscode/
 venv/
-.DS_Store/
-
+.DS_Store
+src/test.py
