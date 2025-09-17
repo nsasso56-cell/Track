@@ -31,6 +31,7 @@ pyshp==2.3.1
 python-dateutil==2.9.0.post0
 pytz==2025.2
 PyYAML==6.0.2
+scipy==1.13.1
 shapely==2.0.7
 six @ file:///AppleInternal/Library/BuildRoots/39d9dc1a-2111-11f0-be06-226177e5bb69/Library/Caches/com.apple.xbs/Sources/python3/six-1.15.0-py2.py3-none-any.whl
 tzdata==2025.2

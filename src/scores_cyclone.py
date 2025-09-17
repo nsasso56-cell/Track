@@ -139,7 +139,7 @@ fig.savefig(repout +
 
 
 # %%
-fig, axes = plt.subplots(nrows=2, ncols=2, figsize=(14, 12))
+fig, axes = plt.subplots(nrows=2, ncols=2, figsize=(14, 10))
 ax = axes.flat
 diags = ["mslp_min_p", "TTE",
          "ff10m_max_s4", "ff300_max_s4"]
@@ -158,7 +158,7 @@ for idiag, diag in enumerate(diags):
     # plot_line_score(fig, "score_PanguERA5.csv", diag, 6, 102, "mean",color="red")
     # plot_line_score(fig, "score_PanguERA5.csv", diag, 6, 102, "q90",color="red",linestyle="--")
     ax[idiag].hlines(y=0, xmin=-10, xmax=150, linewidth=1, color='k')
-    ax[idiag].legend(ncol=len(xp[1:]))
+    ax[0].legend(ncol=len(xp[1:]))
     ax[idiag].grid(which='major', linewidth=1.5,
             color='gray', alpha=0.5, linestyle='-')
     ax[idiag].grid(which='minor', linewidth=1.5,
