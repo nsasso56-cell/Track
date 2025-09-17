@@ -22,14 +22,16 @@ Clone repository and install dependencies :
 
 ```bash
 export PYTHONPATH:your_folder/Traject/src:$PYTHONPATH
-
+```
 
 2.Clone repository and install dependencies :
 ```bash
-git clone 
+git clone https://github.com/nsasso56-cell/Track
 cd Track
+python -m venv venv
+source venv/bin/activate
 pip install -r requirements.txt
+```
 
-
-Nicolas Sasso, for UMR-CNRM. 
+Nicolas Sasso, UMR-CNRM. 
 n.sasso56@gmail.com
