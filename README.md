@@ -1,8 +1,6 @@
 
 
-# Nom du projet
-
-Track project :
+# Track project :
 
 Use of Traject python library (Matthieu Plu) for Observing system simulation experiments at Météo-France.
 
@@ -11,14 +9,6 @@ Propose several python scripts in src/ to :
 2. Display convective systems tracks on top of specific atmospheric fields.
 3. Perform and trace typical Traject scores, in a scientific article style. 
 
-This project needs the use of Traject Library, ideally the adapted version 
-1. Install the Traject library
-2. Insert the Traject/src/ directory in PythonPath in .bashrc or .bashprofile (Linux) or .zshrc (MacOs):
-'''bash
-export PYTHONPATH:your_folder/Traject/src:$PYTHONPATH
-
-
-Nicolas Sasso, UMR-CNRM
 
 ---
 
@@ -26,7 +16,20 @@ Nicolas Sasso, UMR-CNRM
 
 Clone repository and install dependencies :
 
+1. This project needs the use of Traject Library, ideally the adapted version from N.Sasso :
+- Install the Traject library (https://github.com/nsasso56-cell/Traject)
+- Insert the Traject/src/ directory in PythonPath in .bashrc or .bashprofile (Linux) or .zshrc (MacOs):
+
+```bash
+export PYTHONPATH:your_folder/Traject/src:$PYTHONPATH
+
+
+2.Clone repository and install dependencies :
 ```bash
 git clone 
 cd Track
 pip install -r requirements.txt
+
+
+Nicolas Sasso, for UMR-CNRM. 
+n.sasso56@gmail.com
