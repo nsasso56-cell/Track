@@ -14,8 +14,6 @@ Propose several python scripts in src/ to :
 
 ## 🚀 Installation
 
-Clone repository and install dependencies :
-
 1. This project needs the use of Traject Library, ideally the adapted version from N.Sasso :
 - Install the Traject library (https://github.com/nsasso56-cell/Traject)
 - Select "main_nsasso" branch in Traject repo :
