@@ -5,7 +5,9 @@ inputs/*
 !inputs/indef_template.json
 
 
-outputs/
+outputs/*
+!outputs/*.csv
+
 .vscode/
 venv/
 .DS_Store
