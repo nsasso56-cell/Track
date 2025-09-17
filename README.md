@@ -18,7 +18,11 @@ Clone repository and install dependencies :
 
 1. This project needs the use of Traject Library, ideally the adapted version from N.Sasso :
 - Install the Traject library (https://github.com/nsasso56-cell/Traject)
-- Insert the Traject/src/ directory in PythonPath in .bashrc or .bashprofile (Linux) or .zshrc (MacOs):
+- Select "main_nsasso" branch in Traject repo :
+```bash
+git checkout main_nsasso
+```
+- Insert the Traject/src/ directory in PythonPath in .bashrc or .bashprofile (Linux) or .zshrc (MacOs), adding the following line:
 
 ```bash
 export PYTHONPATH:your_folder/Traject/src:$PYTHONPATH
